@@ -8,14 +8,14 @@ int main()
 		int n, r, nfat = 1, rfat = 1, nrfat = 1, C; 			/*nfat: recebe n!, rfat: recebe r! e nrfat: recebe (n-r)! */
 		printf("\n* * * Calculo da combinacao Cn,r * * * "); 
 		printf("\nn: ");
-		scanf("%d", &n); 								/*Recebe o valor de n */ 
+		scanf("%d", &n); 						/*Recebe o valor de n */ 
 		printf("r: ");
-		scanf("%d", &r); 								/*Recebe o valor de r*/
+		scanf("%d", &r); 						/*Recebe o valor de r*/
 		printf("Valores digitados n: %d \t r: %d", n, r);		/*Apresenta os valores inseridos*/
 		printf("\n* * * * * * * * * * * * * * * * * * * \n");
-		for(int i = 2; i <= n; i++)						/*Cálculo de n!*/
+		for(int i = 2; i <= n; i++)					/*Cálculo de n!*/
 			nfat *= i; 
-		for(int i = 2; i <= r; i++)						/*Cálculo de r!*/
+		for(int i = 2; i <= r; i++)					/*Cálculo de r!*/
 			rfat *= i;
 		for(int i = 2; i <= n - r; i++)					/*Cálculo de (n-r)!*/
 			nrfat *= i;
