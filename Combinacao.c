@@ -19,8 +19,8 @@ int main()
 			rfat *= i;
 		for(int i = 2; i <= n - r; i++)					/*Cálculo de (n-r)!*/
 			nrfat *= i;
-		C = nfat / (rfat * nrfat);
-		printf("Cn,r: %d \n", C);
+		C = nfat / (rfat * nrfat);					//Calcula n! / r! * (n - r)!
+		printf("Cn,r: %d \n", C);					//Apresenta o resulado
 		printf("* * * * * * * * * * * * * * * * * * * * \n");   
 		printf("Deseja refazer? Sim(1)\nR:");				/*Verificação p/ continuar rodando o programa*/ 
 		scanf("%d", &op);
