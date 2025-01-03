@@ -9,12 +9,12 @@ int main()
 		printf("\n* * * * * *  Triangulo de Pascal * * * * * * ");
 		int n; 									//Variável p/ armazenar o número de linhas desejada pelo usuário
 		printf("\nDigite o numero de linhas desejada:");
-		scanf("%d", &n);								//Recebe o valor n do usuário
-		for(int linha = 0; linha <= n; linha++)				//
+		scanf("%d", &n);							//Recebe o valor n do usuário
+		for(int linha = 0; linha <= n; linha++)				
 		{
-			for(int coluna = 0; coluna <= linha; coluna++)		//O número de colunas a ser inserida em cada linha é igual ao número da linha(linha 2, até duas colunas...)
+			for(int coluna = 0; coluna <= linha; coluna++)			//O número de colunas a ser inserida em cada linha é igual ao número da linha(linha 2, até duas colunas...)
 			{
-				int nfat = 1, rfat = 1, nrfat = 1, c; 		//nfat: recebe n!, rfat recebe r!, nrfat recebe (n-r)! e c recebe n!/(r! * (n-r)! ) - Cálculo da combinação
+				int nfat = 1, rfat = 1, nrfat = 1, c; 			//nfat: recebe n!, rfat recebe r!, nrfat recebe (n-r)! e c recebe n!/(r! * (n-r)! ) - Cálculo da combinação
 				for(int k = 1; k <= linha; k++)
 					nfat *= k;
 				for(int k = 1; k <= coluna; k++)
@@ -28,7 +28,7 @@ int main()
 		}
 		printf("* * * * * * * * * * * * * * * * * * * * * * * ");
 		printf("\nDeseja refazer? [1]SIM ou [0]NAO\nR: ");
-		scanf("%d", &op);								//Verificação para reiniciar o programa
+		scanf("%d", &op);							//Verificação para reiniciar o programa
 		system("cls");								//Comando para limpar o console
  
 		
