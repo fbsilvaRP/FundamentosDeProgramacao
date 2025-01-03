@@ -1,4 +1,4 @@
-/*Escreva um programa em C que exiba o triângulo de Pascal. Exercício adaptado do livro Algoritmos e Lógica de Programação: um texto introdutório para a engenharia / Marco Antonio Furlan De Souza -3.ed. - São Paulo, SP:Cengage*/
+/*Escreva um programa em C que exiba o triângulo de Pascal. Exercício adaptado do livro Algoritmos e Lógica de Programação: um texto introdutório para a engenharia / Marco Antonio Furlan De Souza -3.ed. - São Paulo, SP:Cengage. Feito em 03/01/25*/
 #include <stdio.h>									//Comandos de entrada e saída de dados
 #include <stdlib.h> 									//A biblioteca stdlib inclui o comando system("cls"), o qual limpa o console
 int main()
