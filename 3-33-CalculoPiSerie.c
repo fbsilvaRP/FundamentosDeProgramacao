@@ -4,7 +4,7 @@
 #include <stdlib.h>	// Biblio. para incluir a função system("cls"), para limpar o console
 int main()
 {
-	system("cls");
+	system("cls");			//Clear screen
 	double i = 0; 			//Iterador
 	double acum = 0; 		//Acumulará a série: (1 - 1/3 + ...)
 	double aux = -1; 		//aux representa o numerador das sucessivas divisões (ora positivo, ora negativo);
