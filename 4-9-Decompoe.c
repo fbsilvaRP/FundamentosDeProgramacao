@@ -1,3 +1,4 @@
+/*Elabore um programa em C que permita a entrada de um número N inteiro e então exiba a decomposição desse número em seus fatores primos.*/
 #include <stdio.h>								//Biblioteca de entrada e saída de dados
 #include <stdlib.h>								//Biblioteca p/ inserir o comando system("cls")
 int main()
